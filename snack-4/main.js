@@ -3,8 +3,11 @@ var invited = ["Riccardo", "Marco", "Luca", "Michele", "Giacomo"]
 //chiedi all’utente il suo nome 
 var userName = prompt("What's your name?")
 //e comunicagli se può partecipare o no alla festa. 
+var msg = document.getElementById("msg")
+
 if (invited.includes(userName)) {
-    console.log("Welcome to the party");
+    msg.innerHTML = "Welcome to the party   " + userName + "!";
 } else {
-    console.log("Sorry this party ain't for you!")
+    msg.innerHTML = "Sorry this party ain't for you!"
 }
+
