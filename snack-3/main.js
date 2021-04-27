@@ -4,8 +4,8 @@ var sum = 0;
 
 for (var i = 0; i < 10; i++) {
     var userNumber = (Number(prompt("Choose a number")))
+    //Il programma stampa la somma di tutti i numeri inseriti.  
     sum += userNumber;
 }
 console.log(sum);
 
-//Il programma stampa la somma di tutti i numeri inseriti.  
