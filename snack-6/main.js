@@ -3,6 +3,6 @@ var n = Number(prompt("Insert a number"))
 
 // Stampa il cubo dei primi N numeri,
 
-for (var i = 1; i < n; i++) {
+for (var i = 1; i <= n; i++) {
     console.log(Math.pow(i, 3))
 }
