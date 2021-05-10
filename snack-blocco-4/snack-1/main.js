@@ -1,5 +1,5 @@
 // Snack blocco 4 - 1a
-var palla = {
+var Palla = {
     nome: 'palla',
     peso: 10
 }
@@ -7,5 +7,5 @@ var palla = {
 // Snack blocco 4 - 1b
 
 var userPeso = parseInt(prompt('Inserisci il peso della palla: '))
-palla.peso = userPeso
+Palla.peso = userPeso
 console.log(palla);
